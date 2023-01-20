@@ -1,5 +1,5 @@
-import { Link, NavLink } from "react-router-dom";
-import cssStyle from "../Common/Common.module.css"
+import {NavLink } from "react-router-dom";
+import cssStyle from "../Common/MainNavigation.module.css"
 
 export const MainNavigation = () => {
 
@@ -7,9 +7,8 @@ export const MainNavigation = () => {
   return (
     <>
       <ul className={cssStyle.mainNavigation}>
-        <li><NavLink className={classNameActive}end to="/">Home</NavLink></li>
-        <li><NavLink className={classNameActive} to="/event">Events</NavLink></li>
-        <li><NavLink className={classNameActive} to="/new-event">NewEvent</NavLink></li>
+        <li><NavLink className={classNameActive} to="/">Home</NavLink></li>
+        <li><NavLink className={classNameActive} to="event">Events</NavLink></li>
       </ul>
     </>
   );
