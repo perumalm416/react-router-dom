@@ -25,7 +25,7 @@ export const EventDetailPage = () => {
         <h4>
           Event : {filterEvent[0].event} Year: {filterEvent[0].year}
         </h4>
-        <button type="button" role="editButton" onClick={onEditEventHandler}>
+        <button type="button"  onClick={onEditEventHandler}>
           Edit
         </button>
       </div>

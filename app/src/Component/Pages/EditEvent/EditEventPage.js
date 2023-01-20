@@ -6,3 +6,4 @@ export const EditEventPage=()=>{
     <h2>Edit Event Page</h2>
     </>
 }
+
