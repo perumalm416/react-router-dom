@@ -1,0 +1,28 @@
+.newEventForm {
+  box-shadow: 0px 0px 2px 1px yellow;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.newEventForm > label,
+.newEventForm > input {
+  display: block;
+  width: 100%;
+  margin: 3px 0px;
+ height:25px;
+}
+.newEventForm > button {
+  margin-top: 10px;
+  width: 33.3%;
+  padding: 5px;
+  background-color: rgb(162, 246, 162);
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(7, 49, 7);
+  font-weight: bolder;
+  position: relative;
+  left: 33.3%;
+}
+@media screen and (max-width:750px){
+    .newEventForm {
+        width: 100%;
+    }
+}

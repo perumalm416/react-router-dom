@@ -1,9 +1,16 @@
 .eventList {
   list-style: none;
   text-decoration: none;
-  border: 2px solid red;
-  margin: 4px;
+  border: 2px solid rgb(2, 7, 1);
   padding: 5px 20px;
-  max-width: 50%;
-  margin: 3px auto;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  box-shadow: 0px 0px 4px 1px white;
+}
+.eventList:hover {
+  background-color: rgb(172, 235, 179);
+  border: 3px solid rgb(7, 48, 7);
+  padding: 8px 25px;
+  color: black;
+  font-weight: bolder;
 }
