@@ -1,8 +1,10 @@
+import { NewEventForm } from "./NewEventForm"
 
 
 
 export const NewEventPage=()=>{
     return<>
-    <h2>New Event Page</h2>
+    <h2>New Event Form</h2>
+    <NewEventForm/>
     </>
 }
